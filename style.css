@@ -1,26 +1,11 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  color: darkblue;
+  color: white;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 50px;
   margin-right: 50px;
-  background-color: ivory;
-}
-
-.nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav li {
-  display: inline;
-}
-
-.nav a {
-  margin-left: 60px;
-  margin-right: 60px;
+  background-color: black;
 }
 
 h1, h2 {
@@ -39,14 +24,13 @@ img {
 }
 
 .right {
-  float: right;
+  float: left;
   width: 300px;
   padding: 10px;
 }
 
 .center {
-  margin-left: 300px;
-  margin-right: 300px;
+  float: left;
   width: 300px;
   padding: 10px;
 }
