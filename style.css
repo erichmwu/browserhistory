@@ -1,15 +1,10 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  color: white;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
-  background-color: black;
+  padding-top: 75px;  /* Move body of page below navbar. */
 }
 
-h1, h2 {
-  font-family: 'Oswald', sans-serif;
+.page-content {
+  padding: 10px;
+  text-align: center;
 }
 
 img {
@@ -17,20 +12,3 @@ img {
   margin-right: 15px;
 }
 
-.left {
-  float: left;
-  width: 300px;
-  padding: 10px;
-}
-
-.right {
-  float: left;
-  width: 300px;
-  padding: 10px;
-}
-
-.center {
-  float: left;
-  width: 300px;
-  padding: 10px;
-}
